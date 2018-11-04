@@ -4,7 +4,7 @@ import Oracoes from './Oracoes'
 const Saint = ({ nome, livros, oracoes }) =>
 	<section id={nome.toLowerCase().replace(/ /g, '-')}>
 		<h1>{nome}</h1>
-    <BooksList list={books} />
+    <BooksList list={livros} />
     <Oracoes title="Orações" oracoes={oracoes} />
 	</section>
 
